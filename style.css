@@ -1,0 +1,354 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+  }
+  body{
+   
+  }
+  .nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 24px 0px;
+    background-color:#e6efff;
+    border-bottom: 1px solid #d1dcfe;
+    position:fixed;
+   
+  }
+  .nav-logo{
+    width: 100%;
+    height:50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .logo{
+    margin-left: 1.85rem;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 200px;
+    
+  }
+  .link{
+    width:45%;
+    height:50px ;
+    display:flex ;
+    justify-content:flex-end;
+    align-items: center;  
+    gap: 10px;
+   
+  }
+  .link a{
+       height: 47px;
+       margin: 0 8px;
+       padding:14px 12px;
+       color: #141414;
+       text-decoration: none;
+       font-size: 16px;  
+  }
+  .link button{
+    font-size: 16px;
+    width:150px;
+    height: 50px;
+    background-color: #141414;
+    color: white;
+    margin-right: 1.85rem;
+
+  }
+  /* firsstbox */
+  .firstbox{
+    display: flex;
+    justify-content: center;
+    height: 680px;
+    background-color:#e6efff ;
+    align-items: center;
+  }
+  .firstbox-info{
+    width: 570px;
+    height: 470px;
+    padding-left: 36px;
+  }
+ .firstbox-info h2{
+   font-size: 60px;
+   font-weight: 400;
+   color: #141414;
+   
+   
+ }
+ .firstbox-info p{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #141414;
+  padding: 1rem 0;
+  
+ }
+ .firstbox-info button{
+  margin: 15px 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  width:175px;
+  height: 50px;
+  background-color: #141414;
+  color: white;
+  border: none ;
+  display: block;
+ }
+  button i{
+  width: 22px;
+  font-size: 1rem;
+ }
+ .span{
+  display: inline;
+  color: #1A1B1F;
+  margin-top: 10px;
+  
+ }
+ .firstbox-info a{
+  color: #1A1B1F;
+ }
+  .firstbox-image {
+   width: 570px;
+   height: 480px;
+  }
+  .firstbox-image img{
+    width: 100%;
+   height: auto;
+  }
+  /* box 2 features */
+  .features{
+    height: 1250px;
+  }
+  .heading{
+    width: 453px;
+    height: 60px;
+    color: #141414;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 0;
+    margin-top: 100px;
+   
+  }
+  .heading h2{
+    letter-spacing: 1px;
+    font-size: 42px;
+    font-weight: 300;
+    height: 60px;
+  }
+  .gridlayout{
+    width: 1140px;
+    height: 1000px;
+    display: grid;
+    padding: 48px 48px 0px;
+    margin-top: 20PX;
+    margin: auto;
+    grid-template-columns: auto auto ;
+    -webkit-box-align: center;
+    grid-column-gap: 18px;
+    grid-row-gap: 64px;
+    
+  }
+  .grid1{
+    width: 513px;
+    height: 270px;
+
+  }
+  .grid1 img{
+    padding-bottom: 36px;
+  }
+  .feature-title{
+     width: 374px;
+     height: 23px;
+     color: #141414;
+     font-size: 18px;
+     font-family: "IBM Plex Sans", sans-serif;
+     font-weight: 600;
+     margin: 0 24px 10px 0;
+  }
+  .title1{
+    width: 416px;
+  }
+  .feature-para{
+   width: 408px;
+   height: 74px;
+   color: #141414;
+     font-size: 16px;
+     font-family: "IBM Plex Sans", sans-serif;
+     margin: 0 24px 10px 0;
+  }
+  /* box3  */
+  .box3{
+   
+   height:844px ;
+   padding: 96px 0;
+   background-color: #FDFFE6;
+  }
+  .container{
+    
+    margin: auto;
+    width: 893px;
+    height: 650px;
+  }
+  .container h2{
+    /* width: 144px; */
+    height: 56px;
+    text-align: center;
+    color: #141414;
+    font-size: 40px;
+    margin: 10px 0 36px;
+    font-weight: 400;
+  }
+  .container2{
+    width: 893px;
+    height: 470px;
+    display: grid;
+    padding: 0 64px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 79px;
+    grid-row-gap: 16px;
+    grid-template-areas: ".";
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .container-inner{
+
+    background-color: #141414;
+    padding: 36px;
+    color: white;
+    
+  }
+  .container-heading{
+    width: 269px;
+    height: 187px;
+    color: white;
+
+  }
+  .container-heading h3{
+    margin: 10px 0;
+    font-size: 48px;
+    text-align: center;
+    
+  }
+  .container-para {
+    width: 269px;
+    height: 136px;
+    margin: 10px 0;
+    font-size: 18px;
+   
+  }
+  .container-para p{
+    font-weight: 300;
+  }
+  .container-inner button{
+    width: 269px;
+    height: 52px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  .container-inner2{
+
+    background-color: white;
+    padding: 36px;
+    color: #141414;
+    
+  }
+  .container-heading2{
+    width: 269px;
+    height: 187px;
+    color: #141414;
+
+  }
+  .container-heading2 h3{
+    margin: 10px 0;
+    font-size: 48px;
+    text-align: center;
+    
+  }
+  .container-para2 {
+    width: 269px;
+    height: 136px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 1;
+   
+  }
+  .container-inner2 button{
+    width: 269px;
+    height: 52px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  .contact-container{
+    height: 680px;
+    background-color: #e6efff;
+    padding: 80px 0px;
+    
+  }
+  .contact-section{
+    align-items: center;
+    height: 600px;
+
+  }
+  .contact-section h2 {
+   width: 270px;
+   height: 60px;
+   margin: auto;
+   color: #141414;
+   font-size: 48px;
+   font-weight: 300;
+   margin-bottom: 24px;
+   margin-top: 10px;
+  
+
+  }
+  .contact-info{
+    width: 1140px;
+    height: 430px;
+    margin: 0 124px 80px;
+    margin: auto;
+    display: flex;
+  }
+  .info-content{
+    width: 550px;
+    height: 130px;
+   
+   
+  }
+  .info-content p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 22px;
+    color: #141414;
+  }
+  .info-content img{
+    width: 444px;
+    height: 430px;
+  }
+  .section-footer{
+    height: 195px;
+    background-color: #141414;
+    padding-top: 36px;
+  }
+  .footer-container{
+    height: 120px;
+    margin: 0 48px 36px;
+    align-content: center;
+  }
+  .footer-container img{
+    width: 288px;
+    height: 41px;
+    color: #d1dcfe;
+  }
